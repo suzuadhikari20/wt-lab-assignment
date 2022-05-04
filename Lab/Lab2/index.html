@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Buttons</title>
+	<style type="text/css">
+		.btn {
+			text-decoration: none;
+			padding: 10px 20px;
+			border: solid 1px;
+			border-radius: 5px;
+			margin: 10px;
+			border-color: aliceblue;
+		}
+		.btn-round{
+			padding: 5px 10px;
+			border: solid 1px;
+			border-color: aliceblue;
+			border-radius: 20px;
+			background-color: green;
+			color: white;
+
+		}
+		.btn-primary{
+			background-color: green;
+			color: white;
+		}
+		.btn-secondary{
+			background-color: lightgrey;
+			color: dimgrey;
+		}
+		.btn-destructive{
+			background-color: orange;
+			color: white;
+		}
+		.btn-round:hover {
+            border-bottom-color: #479582;
+        }
+
+        .btn-primary:hover {
+            border-bottom-color: #479582;
+        }
+
+        .btn-secondary:hover {
+            border-bottom-color: #A3B5BD;
+        }
+
+        .btn-destructive:hover {
+            border-bottom-color: #B36C55;
+        }
+
+        .btn-round:active {
+            background-color: #83D0B7;
+            border-bottom-color: white;
+        }
+
+        .btn-primary:active {
+            background-color: #83D0B7;
+            border-bottom-color: white;
+        }
+
+        .btn-secondary:active {
+            background-color: #EDF1F3;
+            border-bottom-color: white;
+        }
+
+        .btn-destructive:active {
+            background-color: #E9AB96;
+            border-bottom-color: white;
+        }
+
+        #btn-disable-round {
+            background-color: #83D0B7;
+            border-bottom-color: white;
+            border-radius: 50%;
+            padding: 5px 10px;
+        }
+
+        #btn-disable-primary {
+            background-color: #83D0B7;
+            border-bottom-color: white;
+        }
+
+        #btn-disable-secondary {
+            background-color: #EDF1F3;
+            border-bottom-color: white;
+            color: #78929D;
+        }
+
+        #btn-disable-destructive {
+            background-color: #E9AB96;
+            border-bottom-color: white;
+        }
+	</style>
+</head>
+<body>
+	<h1>Buttons</h1>
+  <div>	
+  <a href="#" class="btn btn-round">+</a>
+  <a href="#" class=" btn btn-primary">Button</a>
+  <a href="#" class="btn btn-secondary">Button</a>
+  <a href="#" class="btn btn-destructive">Button</a>
+  </div>
+  <br>
+  <br>
+
+  <div>
+	<a href="#" class="btn btn-round" id="btn-disable-round">+</a>
+	<a href="#" class="btn btn-primary" id="btn-disable-primary">Button</a>
+	<a href="#" class="btn btn-secondary" id="btn-disable-secondary">Button</a>
+	<a href="#" class="btn btn-destructive" id="btn-disable-destructive">Button</a>
+</div>
+
+</body>
+</html>
