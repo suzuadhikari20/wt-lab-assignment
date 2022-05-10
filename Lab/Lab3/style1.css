@@ -1,0 +1,958 @@
+* {
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+h1 {
+    color: hsl(213deg 28% 90%);
+}
+
+body {
+    background-color: hsl(223deg 47% 11%);
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+}
+
+p {
+
+    /* border: solid 1px black; */
+    height: 30.5px;
+    width: 50px;
+    margin: 19.5px 10px 37.5px 0px;
+    padding: 1px 50px 20px 0px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    color: hsl(213deg 28% 90%);
+    font-size: x-large;
+}
+
+span {
+    width: fit-content;
+    font-size: smaller;
+}
+
+.col {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.inner {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.box {
+    border: 1px solid gray;
+    text-decoration: none;
+    text-align: center;
+    height: 20px;
+    width: 50px;
+    margin: 15px 8px 0px 8px;
+    padding: 20px 50px;
+    border-radius: 10px;
+    margin-right: 25px;
+}
+
+.num {
+    color: hsl(213deg 28% 90%);
+}
+
+.name {
+    color: hsl(215deg 21% 65%);
+}
+
+.s50 {
+    background-color: hsl(208deg 46% 98%);
+}
+
+.g50 {
+    background-color: hsl(208deg 23% 98%);
+}
+
+.z50 {
+    background-color: hsl(0deg 0% 98%);
+}
+
+.n50 {
+    background-color: hsl(0deg 0% 98%);
+}
+
+.s50 {
+    background-color: hsl(354deg 100% 97%);
+}
+
+.r50 {
+    background-color: hsl(359deg 88% 97%);
+}
+
+.o50 {
+    background-color: hsl(32deg 100% 96%);
+}
+
+.a50 {
+    background-color: hsl(48deg 97% 96%);
+}
+
+.y50 {
+    background-color: hsl(57deg 86% 95%);
+}
+
+.l50 {
+    background-color: hsl(57deg 86% 95%);
+}
+
+.gr50 {
+    background-color: hsl(141deg 82% 97%);
+}
+
+.e50 {
+    background-color: hsl(151deg 77% 96%);
+}
+
+.t50 {
+    background-color: hsl(165deg 82% 97%);
+}
+
+.c50 {
+    background-color: hsl(184deg 100% 96%);
+}
+
+.sk50 {
+    background-color: hsl(202deg 95% 97%);
+}
+
+.b50 {
+    background-color: hsl(212deg 99% 97%);
+}
+
+.i50 {
+    background-color: hsl(226deg 100% 97%);
+}
+
+.v50 {
+    background-color: hsl(253deg 100% 98%);
+}
+
+.p50 {
+    background-color: hsl(270deg 96% 98%);
+}
+
+.f50 {
+    background-color: hsl(288deg 97% 98%);
+}
+
+.pi50 {
+    background-color: hsl(324deg 74% 97%);
+}
+
+.ro50 {
+    background-color: hsl(354deg 100% 97%);
+}
+
+.s100 {
+    background-color: hsl(212deg 42% 96%);
+
+}
+
+.g100 {
+    background-color: hsl(218deg 16% 96%);
+}
+
+.z100 {
+    background-color: hsl(240deg 5% 96%);
+}
+
+.n100 {
+    background-color: hsl(0deg 0% 96%);
+}
+
+.st100 {
+    background-color: hsl(60deg 5% 96%);
+}
+
+.r100 {
+    background-color: hsl(359deg 91% 94%);
+}
+
+.o100 {
+    background-color: hsl(35deg 100% 92%);
+}
+
+.a100 {
+    background-color: hsl(50deg 73% 86%);
+}
+
+.y100 {
+    background-color: hsl(55deg 96% 88%);
+}
+
+.l100 {
+    background-color: hsl(55deg 96% 88%);
+}
+
+.gr100 {
+    background-color: hsl(139deg 85% 92%);
+}
+
+.e100 {
+    background-color: hsl(148deg 82% 90%);
+}
+
+.t100 {
+    background-color: hsl(167deg 87% 89%);
+}
+
+.c100 {
+    background-color: hsl(185deg 96% 90%);
+}
+
+.sk100 {
+    background-color: hsl(205deg 96% 94%);
+}
+
+.b100 {
+    background-color: hsl(214deg 95% 93%);
+}
+
+.i100 {
+    background-color: hsl(225deg 100% 94%);
+}
+
+.v100 {
+    background-color: hsl(250deg 98% 96%);
+}
+
+.p100 {
+    background-color: hsl(269deg 98% 95%);
+}
+
+.f100 {
+    background-color: hsl(288deg 97% 95%);
+}
+
+.pi100 {
+    background-color: hsl(323deg 74% 95%);
+}
+
+.ro100 {
+    background-color: hsl(356deg 100% 95%);
+}
+
+.s200 {
+    background-color: hsl(207deg 25% 89%);
+}
+
+.g200 {
+    background-color: hsl(218deg 15% 91%);
+}
+
+.z200 {
+    background-color: hsl(240deg 2% 90%);
+}
+
+.n200 {
+    background-color: hsl(240deg 9% 90%);
+}
+
+.st200 {
+    background-color: hsl(18deg 7% 90%);
+}
+
+.r200 {
+    background-color: hsl(0deg 84% 88%);
+}
+
+.o200 {
+    background-color: hsl(31deg 99% 84%);
+}
+
+.a200 {
+    background-color: hsl(48deg 96% 77%);
+}
+
+.y200 {
+    background-color: hsl(53deg 97% 77%);
+}
+
+.l200 {
+    background-color: hsl(81deg 88% 80%);
+}
+
+.gr200 {
+    background-color: hsl(142deg 78% 85%);
+}
+
+.e200 {
+    background-color: hsl(152deg 64% 77%);
+}
+
+.t200 {
+    background-color: hsl(168deg 85% 78%);
+}
+
+.c200 {
+    background-color: hsl(186deg 93% 82%);
+}
+
+.sk200 {
+    background-color: hsl(200deg 93% 86%);
+}
+
+.b200 {
+    background-color: hsl(213deg 87% 86%);
+}
+
+.i200 {
+    background-color: hsl(228deg 70% 85%);
+}
+
+.v200 {
+    background-color: hsl(228deg 70% 85%);
+}
+
+.p200 {
+    background-color: hsl(228deg 70% 85%);
+}
+
+.f200 {
+    background-color: hsl(228deg 70% 85%);
+}
+
+.pi200 {
+    background-color: hsl(228deg 70% 85%);
+}
+
+.ro200 {
+    background-color: hsl(228deg 70% 85%);
+}
+
+.s300 {
+    background-color: hsl(215deg 35% 92%);
+}
+
+.g300 {
+    background-color: hsl(218deg 15% 91%);
+}
+
+.z300 {
+    background-color: hsl(240deg 5% 84%);
+}
+
+.n300 {
+    background-color: hsl(240deg 5% 84%);
+}
+
+.st300 {
+    background-color: hsl(18deg 4% 83%);
+}
+
+.r300 {
+    background-color: hsl(0deg 88% 81%);
+}
+
+.o300 {
+    background-color: hsl(31deg 97% 72%);
+}
+
+.a300 {
+    background-color: hsl(46deg 96% 64%);
+}
+
+.y300 {
+    background-color: hsl(51deg 98% 63%);
+}
+
+.l300 {
+    background-color: hsl(81deg 84% 67%);
+}
+
+.gr300 {
+    background-color: hsl(141deg 76% 73%);
+}
+
+.e300 {
+    background-color: hsl(156deg 72% 67%);
+}
+
+.t300 {
+    background-color: hsl(156deg 72% 67%);
+}
+
+.c300 {
+    background-color: hsl(187deg 92% 69%);
+}
+
+.sk300 {
+    background-color: hsl(199deg 96% 74%);
+}
+
+.b300 {
+    background-color: hsl(211deg 96% 78%);
+}
+
+.i300 {
+    background-color: hsl(229deg 92% 82%);
+}
+
+.v300 {
+    background-color: hsl(252deg 95% 85%);
+}
+
+.p300 {
+    background-color: hsl(269deg 100% 85%);
+}
+
+.f300 {
+    background-color: hsl(291deg 93% 83%);
+}
+
+.pi300 {
+    background-color: hsl(326deg 67% 78%);
+}
+
+.ro300 {
+    background-color: hsl(352deg 95% 82%);
+}
+
+/* 400 SERIES */
+.s400 {
+    background-color: hsl(214deg 20% 65%);
+}
+
+.g400 {
+    background-color: hsl(217deg 11% 65%);
+}
+
+.z400 {
+    background-color: hsl(240deg 5% 65%);
+}
+
+.n400 {
+    background-color: hsl(24deg 6% 64%);
+}
+
+.st400 {
+    background-color: hsl(24deg 6% 64%);
+}
+
+.r400 {
+    background-color: hsl(0deg 90% 71%);
+}
+
+.o400 {
+    background-color: hsl(27deg 96% 61%);
+}
+
+.a400 {
+    background-color: hsl(43deg 97% 56%);
+}
+
+.y400 {
+    background-color: hsl(48deg 96% 53%);
+}
+
+.l400 {
+    background-color: hsl(83deg 78% 55%);
+}
+
+.gr400 {
+    background-color: hsl(143deg 69% 58%);
+}
+
+.e400 {
+    background-color: hsl(158deg 64% 52%);
+}
+
+.t400 {
+    background-color: hsl(172deg 66% 50%);
+}
+
+.c400 {
+    background-color: hsl(188deg 85% 54%);
+}
+
+.sk400 {
+    background-color: hsl(199deg 94% 60%);
+}
+
+.b400 {
+    background-color: hsl(213deg 93% 68%);
+}
+
+.i400 {
+    background-color: hsl(234deg 90% 74%);
+}
+
+.v400 {
+    background-color: hsl(255deg 92% 76%);
+}
+
+.p400 {
+    background-color: hsl(269deg 95% 75%);
+}
+
+.f400 {
+    background-color: hsl(292deg 91% 73%);
+}
+
+.pi400 {
+    background-color: hsl(328deg 86% 70%);
+}
+
+.ro400 {
+    background-color: hsl(351deg 95% 71%);
+}
+
+/* 500 series */
+.s500 {
+    background-color: hsl(214deg 16% 47%);
+}
+
+.g500 {
+    background-color: hsl(219deg 9% 46%);
+}
+
+.z500 {
+    background-color: hsl(240deg 4% 46%);
+}
+
+.n500 {
+    background-color: hsl(240deg 0% 45%);
+}
+
+.st500 {
+    background-color: hsl(22deg 5% 45%);
+}
+
+.r500 {
+    background-color: hsl(360deg 84% 60%);
+}
+
+.o500 {
+    background-color: hsl(25deg 95% 53%);
+}
+
+.a500 {
+    background-color: hsl(38deg 92% 50%);
+}
+
+.y500 {
+    background-color: hsl(45deg 95% 47%);
+}
+
+.l500 {
+    background-color: hsl(84deg 81% 44%);
+}
+
+.gr500 {
+    background-color: hsl(142deg 71% 45%);
+}
+
+.e500 {
+    background-color: hsl(160deg 82% 40%);
+}
+
+.t500 {
+    background-color: hsl(173deg 85% 39%);
+}
+
+.c500 {
+    background-color: hsl(188deg 100% 41%);
+}
+
+.sk500 {
+    background-color: hsl(198deg 96% 46%);
+}
+
+.b500 {
+    background-color: hsl(217deg 90% 59%);
+}
+
+.i500 {
+    background-color: hsl(239deg 84% 67%);
+}
+
+.v500 {
+    background-color: hsl(258deg 89% 66%);
+}
+
+.p500 {
+    background-color: hsl(270deg 90% 65%);
+}
+
+.f500 {
+    background-color: hsl(292deg 84% 60%);
+}
+
+.pi500 {
+    background-color: hsl(330deg 81% 60%);
+}
+
+.ro500 {
+    background-color: hsl(350deg 88% 60%);
+}
+
+/* 600 series */
+.s600 {
+    background-color: hsl(215deg 19% 35%);
+}
+
+.g600 {
+    background-color: hsl(215deg 14% 34%);
+}
+
+.z600 {
+    background-color: hsl(240deg 5% 34%);
+}
+
+.n600 {
+    background-color: hsl(127deg 1% 45%);
+}
+
+.st600 {
+    background-color: hsl(32deg 5% 32%);
+}
+
+.r600 {
+    background-color: hsl(0deg 72% 50%);
+}
+
+.o600 {
+    background-color: hsl(20deg 89% 49%);
+}
+
+.a600 {
+    background-color: hsl(32deg 93% 44%);
+}
+
+.y600 {
+    background-color: hsl(41deg 97% 40%);
+}
+
+.l600 {
+    background-color: hsl(85deg 86% 34%);
+}
+
+.gr600 {
+    background-color: hsl(142deg 76% 36%);
+}
+
+.e600 {
+    background-color: hsl(162deg 100% 30%);
+}
+
+.t600 {
+    background-color: hsl(174deg 91% 30%);
+}
+
+.c600 {
+    background-color: hsl(192deg 90% 37%);
+}
+
+.sk600 {
+    background-color: hsl(200deg 100% 39%);
+}
+
+.b600 {
+    background-color: hsl(220deg 83% 53%);
+}
+
+.i600 {
+    background-color: hsl(243deg 75% 58%);
+}
+
+.v600 {
+    background-color: hsl(262deg 83% 58%);
+}
+
+.p600 {
+    background-color: hsl(271deg 82% 56%);
+}
+
+.f600 {
+    background-color: hsl(294deg 70% 49%);
+}
+
+.pi600 {
+    background-color: hsl(333deg 71% 51%);
+}
+
+.ro600 {
+    background-color: hsl(347deg 77% 50%);
+}
+
+/* 700 series */
+.s700 {
+    background-color: hsl(214deg 24% 26%);
+}
+
+.g700 {
+    background-color: hsl(217deg 20% 26%);
+}
+
+.z700 {
+    background-color: hsl(229deg 5% 26%);
+}
+
+.n700 {
+    background-color: hsl(179deg 1% 25%);
+}
+
+.st700 {
+    background-color: hsl(32deg 6% 25%);
+}
+
+.r700 {
+    background-color: hsl(1deg 75% 38%);
+}
+
+.o700 {
+    background-color: hsl(17deg 86% 40%);
+}
+
+.a700 {
+    background-color: hsl(26deg 88% 37%);
+}
+
+.y700 {
+    background-color: hsl(36deg 95% 32%);
+}
+
+.l700 {
+    background-color: hsl(86deg 79% 27%);
+}
+
+.gr700 {
+    background-color: hsl(141deg 68% 29%);
+}
+
+.e700 {
+    background-color: hsl(163deg 89% 25%);
+}
+
+.t700 {
+    background-color: hsl(176deg 79% 26%);
+}
+
+.c700 {
+    background-color: hsl(193deg 83% 30%);
+}
+
+.sk700 {
+    background-color: hsl(202deg 94% 31%);
+}
+
+.b700 {
+    background-color: hsl(202deg 94% 31%);
+}
+
+.i700 {
+    background-color: hsl(244deg 57% 50%);
+}
+
+.v700 {
+    background-color: hsl(263deg 69% 48%);
+}
+
+.p700 {
+    background-color: hsl(272deg 72% 47%);
+}
+
+.f700 {
+    background-color: hsl(295deg 73% 40%);
+}
+
+.pi700 {
+    background-color: hsl(335deg 77% 42%);
+}
+
+.ro700 {
+    background-color: hsl(346deg 81% 38%);
+}
+
+/* 800 series */
+
+.s800 {
+    background-color: hsl(214deg 35% 17%);
+}
+
+.g800 {
+    background-color: hsl(215deg 29% 17%);
+}
+
+.z800 {
+    background-color: hsl(240deg 5% 16%);
+}
+
+.n800 {
+    background-color: hsl(240deg 5% 16%);
+}
+
+.st800 {
+    background-color: hsl(13deg 6% 15%);
+}
+
+.r800 {
+    background-color: hsl(0deg 70% 35%);
+}
+
+.o800 {
+    background-color: hsl(14deg 77% 34%);
+}
+
+.a800 {
+    background-color: hsl(23deg 81% 32%);
+}
+
+.y800 {
+    background-color: hsl(32deg 80% 29%);
+}
+
+.l800 {
+    background-color: hsl(87deg 66% 23%);
+}
+
+.gr800 {
+    background-color: hsl(143deg 66% 24%);
+}
+
+.e800 {
+    background-color: hsl(163deg 87% 20%);
+}
+
+.t800 {
+    background-color: hsl(176deg 72% 22%);
+}
+
+.c800 {
+    background-color: hsl(176deg 72% 22%);
+}
+
+.sk800 {
+    background-color: hsl(200deg 92% 27%);
+}
+
+.b800 {
+    background-color: hsl(226deg 71% 40%);
+}
+
+.i800 {
+    background-color: hsl(226deg 71% 40%);
+}
+
+.v800 {
+    background-color: hsl(263deg 69% 42%);
+}
+
+.p800 {
+    background-color: hsl(273deg 67% 39%);
+}
+
+.f800 {
+    background-color: hsl(296deg 70% 33%);
+}
+
+.pi800 {
+    background-color: hsl(336deg 75% 35%);
+}
+
+.ro800 {
+    background-color: hsl(344deg 79% 35%);
+}
+
+/* 900 series */
+
+.s900 {
+    background-color: hsl(223deg 48% 12%);
+}
+
+.g900 {
+    background-color: hsl(220deg 42% 11%);
+}
+
+.z900 {
+    background-color: hsl(223deg 9% 10%);
+}
+
+.n900 {
+    background-color: hsl(179deg 3% 9%);
+}
+
+.st900 {
+    background-color: hsl(28deg 9% 10%);
+}
+
+.r900 {
+    background-color: hsl(0deg 63% 30%);
+}
+
+.o900 {
+    background-color: hsl(15deg 74% 28%);
+}
+
+.a900 {
+    background-color: hsl(22deg 77% 27%);
+}
+
+.y900 {
+    background-color: hsl(29deg 73% 25%);
+}
+
+.l900 {
+    background-color: hsl(88deg 62% 20%);
+}
+
+.gr900 {
+    background-color: hsl(144deg 61% 20%);
+}
+
+.e900 {
+    background-color: hsl(164deg 85% 17%);
+}
+
+.t900 {
+    background-color: hsl(176deg 63% 19%);
+}
+
+.c900 {
+    background-color: hsl(196deg 63% 24%);
+}
+
+.sk900 {
+    background-color: hsl(202deg 81% 24%);
+}
+
+.b900 {
+    background-color: hsl(225deg 64% 33%);
+}
+
+.i900 {
+    background-color: hsl(242deg 47% 34%);
+}
+
+.v900 {
+    background-color: hsl(263deg 67% 35%);
+}
+
+.p900 {
+    background-color: hsl(297deg 64% 28%);
+}
+
+.f900 {
+    background-color: hsl(297deg 64% 28%);
+}
+
+.pi900 {
+    background-color: hsl(342deg 76% 30%);
+}
+
+.ro900 {
+    background-color: hsl(342deg 76% 30%);
+}
