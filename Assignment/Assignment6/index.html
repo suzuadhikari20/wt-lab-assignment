@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 100px;
+            height: 50px;
+            border: solid 2px;
+            padding: 10px 20px;
+            margin: 10px;
+            text-align: center;
+            position: relative;
+            display: inline-block;
+            background-color: rgba(73, 89, 231,0.3);
+        }
+      
+    </style>
+</head>
+<body onload="move('box1','box2','box3')">
+    <div id="box1" class="box">Ringer</div>
+    <div id="box2" class="box">Ringer</div>
+    <div id="box3" class="box">Roses</div>
+    <script>
+        let dragValue;
+        function move(id){
+            let element =document.querySelector("#box1");
+            let element2 =document.querySelector("#box2");
+            let element3 =document.querySelector("#box3");
+            element.onmousedown = function drag(){
+                dragValue = element;
+            }
+            element2.onmousedown = function drag2(){
+                dragValue = element2;
+            }
+            element3.onmousedown = function drag3(){
+                dragValue = element3;
+            }
+        
+            document.onmousemove = function(e){
+                let x = e.pageX;
+                let y = e.pageY;
+                dragValue.style.position = "absolute";
+                dragValue.style.left =x + "px";
+                dragValue.style.top =y + "px";
+            }
+        }
+        document.onmouseup =function(e){
+            dragValue=null;
+        }
+    </script>
+</body>
+</html>
