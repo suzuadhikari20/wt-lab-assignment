@@ -1,0 +1,6 @@
+SHOW DATABASES;
+CREATE DATABASE <database name>;
+USE <database name>;
+DROP DATABASE <database name>;
+
+CREATE TABLE 

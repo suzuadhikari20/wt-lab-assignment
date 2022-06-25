@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style type="text/css">
+        .form-group{
+            margin-top: 2px;
+        }
+    </style>
+</head>
+<body>
+
+    <form action="./process.php">
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <input type ="text" id="name" placeholder="Nishal Gurung" name="name">
+        </div>
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="nishal.gurung4@gmail.com" name="email">
+        </div>
+        <div class="form-group">
+            <label for="password">Password:</label>
+            <input type="password" id="password" placeholder="********" name="password">
+        </div>
+        <div class="form-group">
+            <label for="dateOfBirth">Date of Birth:</label>
+            <input type="date" id="dateOfBirth" name="dateOfBirth">
+        </div>
+        <div class="form-group">
+            <label for="favColor">Favourite Color:</label>
+            <input type="color" id="favColor" name="favColor">
+        </div>
+        <div class="form-group">
+            <label for="weight">Weight (in kg):</label>
+            <input type="number" id="weight" placeholder="55" name="weight">
+        </div>
+        <div class="form-group">
+            <label>Gender:</label>
+            <div>
+                <label for="male">Male</label>
+                <input type="radio" id="male" name="gender" name="male">
+                <label for="female">Female</label>
+                <input type="radio" id="female" name="gender" name="female">
+                <label for="other">Other</label>
+                <input type="radio" id="other" name="gender" name="other">
+            </div>
+        </div>
+        <div class="form-group">
+            <label>Hobbies:</label>
+            <div>
+                <input type="checkbox" id="travelling" name="hobbies[]"/>
+                <label for="travelling">Travelling</label>
+                <input type="checkbox" id="dancing" name="hobbies[]"/>
+                <label for="dancing">Dancing</label>
+                <input type="checkbox" id="singing" name="hobbies[]"/>
+                <label for="singing">Singing</label>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="nationality">Nationality: </label>
+            <select>
+                <option value="NP" name="np">Nepal</option>
+                <option value="IN" name="in">India</option>
+                <option value="CH" name="ch">China</option>
+                <option value="UK" name="uk">United Kingdom</option>
+
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="profile">Profile: </label>
+            <input type="file" id="profile" name="profile"/>
+        </div>
+        <div class="form-group">
+            <input type="submit" id="Create" name="submit"/>
+            <input type="reset" id="Cancel" name="cancel"/>
+        </div>
+    </form>
+    
+</body>
+</html>
