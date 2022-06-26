@@ -4,3 +4,5 @@ USE <database name>;
 DROP DATABASE <database name>;
 
 CREATE TABLE 
+
+diff betn implode and explode
